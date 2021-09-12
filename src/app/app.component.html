@@ -1,22 +1,20 @@
 
-<button class="btn btn-danger">Prueba :v</button>
+<button class="btn btn-danger">Prueba</button>
 <br>
 <table class="table table-striped">
   <thead>
     <tr>
-      <th scope="col">position</th>
-      <th scope="col">name</th>
-      <th scope="col">weight</th>
-      <th scope="col">symbol</th>
+      <th scope="col">cedula</th>
+      <th scope="col">nombre</th>
+      <th scope="col">apellidos</th>
     </tr>
   </thead>
   <tbody>
     
     <tr *ngFor="let app of data">
-      <td>{{app.position}}</td>
-      <td>{{app.name}}</td>
-      <td>{{app.weight}}</td>
-      <td>{{app.symbol}}</td>
+      <td>{{app.nombre}}</td>
+      <td>{{app.apellidos}}</td>
+      <td>{{app.cedula}}</td>
     </tr>
   
 </table>
